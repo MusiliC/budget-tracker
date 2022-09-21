@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mainApp{
+  width: 60%;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 10px auto;
+  padding: 20px 50px;
+
+}
+
+.title{
+  width: 30%;
+  margin: 0px auto;  
+  text-align: center;
+  font-size: 1.7rem;  
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-icon{
+  font-size: 20px;
+}
+
+.btn-total{
+  padding:5px 15px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  background-color: crimson;
+  color: white;
+  margin: 0px auto; 
+
+}
+
+.btn{
+    padding: 5px 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin: 0px auto;
+}
+
+.spend{
+  width: 40%;
+    margin: 10px auto;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.total{
+background-color: crimson;
+padding: 2px 5px;
+color: white;
+margin: 10px;
+}
+
+.item{
+display: flex;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin: 10px 5px;
+padding: 5px 10px;
+
+}
+
+.info{
+  width: 50%; 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+.item-button{
+width: 50%;
+display: flex;
+justify-content: end;
+
+flex-wrap: wrap;
+}
+
+.amount{
+  background-color: crimson;
+  padding: 5px 10px;
+  color: white;
+  font-weight: 500;
+}
+
+.clear-btn{
+  margin-left: 5px;
+  color: crimson;
+  border: none;
+  background-color: white;
+}
+
+.edit-btn{
+  color: green;
+  border: none;
+  background-color: white;
+}
+
+.form-center{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.list{
+  margin: 20px 0px;
+}
+
+.btn-icon{
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+.form-control{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+ 
+}
+
+.alert{
+  padding: 0.5rem 1.25rem;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  width: 70%;
+  margin:  10px auto;
+  border-radius: 2px;
+
+}
+
+.alert-danger{
+  background: crimson;
+}
+
+.alert-success{
+  background: mediumspringgreen;
+}
